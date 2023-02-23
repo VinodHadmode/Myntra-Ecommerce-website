@@ -1,11 +1,38 @@
-.navbar-container {
-
-    background-color: #fff;
-    height: 60px;
-    border-bottom: 1px solid #ccc;
+.navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    justify-content: left;
+    background-color: white;
+    padding: 10px;
+    border: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
 
+.myntra_logo {
+    cursor: pointer;
+}
+
+.navbar__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.navbar__item {
+    margin: 0 10px;
+
+}
+
+.navbar__link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar__link:hover {
+    background-color: rgb(247, 215, 220);
 }
