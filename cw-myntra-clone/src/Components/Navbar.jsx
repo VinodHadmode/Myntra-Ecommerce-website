@@ -10,31 +10,43 @@ function Navbar() {
             <div>
                 <AllRoutes />
             </div>
-            <nav className="navbar">
-                <div className="navbar-container">
-                    <img src={Logo} width="100" height="100" alt='Myntra-logo' />
+            <nav className={Styles.navbar}>
+               
+                    <img src={Logo} width="100" height="100" alt='Myntra-logo' className={Styles.myntra_logo}/>
 
-                    <ul>
-                        <li>
-                            <Link to="/">HOME</Link>
+                    <ul className={Styles.navbar__list}>
+                        <li className="navbar__item">
+                            <Link to="/" className={Styles.navbar__link}>HOME</Link>
                         </li>
-                        <li>
-                            <Link to="/shop/men">MEN</Link>
+
+                        <li className={Styles.navbar__item}>
+                            <Link to="/shop/men" className={Styles.navbar__link}>MEN</Link>
                         </li>
-                        <li>
-                            <Link to="/shop/women">WOMEN</Link>
+
+                        <li className="navbar__item">
+                            <Link to="/shop/women" className={Styles.navbar__link}>WOMEN</Link>
                         </li>
-                        <li>
-                            <Link to="/shop/kids">KIDS</Link>
+
+                        <li className="navbar__item">
+                            <Link to="/shop/kids" className={Styles.navbar__link}>KIDS</Link>
                         </li>
-                        <li>
-                            <Link to="/shop/home-living">HOME & LIVING</Link>
+                        
+                        <li className="navbar__item">
+                            <Link to="/shop/home-living" className={Styles.navbar__link}>HOME & LIVING</Link>
                         </li>
-                        <li>
-                            <Link to="/shop/beauty">BEAUTY</Link>
+
+                        <li className="navbar__item">
+                            <Link to="/shop/beauty" className={Styles.navbar__link}>BEAUTY</Link>
                         </li>
+
+                        <li className="navbar__item">
+                            <Link to="/shop/studio" className={Styles.navbar__link}>STUDIO</Link>
+                        </li>
+
                     </ul>
-                </div>
+                    {/* <div>
+                    <FontAwesomeIcon icon="far fa-shopping-bag" />
+                    </div> */}
             </nav>
         </div >
     )
