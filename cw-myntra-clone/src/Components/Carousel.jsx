@@ -3,7 +3,13 @@ import React from 'react'
 function Carousel() {
   return (
     <div>
-      Hello
+    This is carousel
+    This is carousel
+    This is carousel
+    This is carousel
+    This is carousel
+    This is carousel
+
     </div>
   )
 }
