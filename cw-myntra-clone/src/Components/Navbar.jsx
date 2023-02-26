@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import AllRoutes from '../Pages/AllRoutes'
 import Logo from '../Images/Myntra-Logo.png'
 import Styles from '../Components/Navbar.module.css'
 import { FaUser } from 'react-icons/fa'
@@ -8,14 +7,10 @@ import { FaRegHeart } from 'react-icons/fa'
 import { FaWeightHanging } from 'react-icons/fa'
 
 
-
 function Navbar() {
     return (
         <div>
-            <div>
-                <AllRoutes />
-            </div>
-
+            
             <nav className={Styles.navbar}>
 
                 <img src={Logo} width="100" height="100" alt='Myntra-logo' className={Styles.myntra_logo} />
@@ -72,6 +67,3 @@ function Navbar() {
 
 export default Navbar
 
-//GrUser
-//FaWeightHanging
-//FaRegHeart
