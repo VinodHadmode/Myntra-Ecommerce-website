@@ -11,15 +11,14 @@ import Studio from './Studio'
 function AllRoutes() {
   return (
     <div>
-    
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/men" element={<Men/>}/>
-        <Route path="/women" element={<Women/>}/>
-        <Route path="/kids" element={<Kids/>}/>
-        <Route path="/kids" element={<HomeLiving/>}/>
-        <Route path="/kids" element={<Beauty/>}/>
-        <Route path="/kids" element={<Studio/>}/>
+        <Route path="/shop/men" element={<Men/>}/>
+        <Route path="/shop/women" element={<Women/>}/>
+        <Route path="/shop/kids" element={<Kids/>}/>
+        <Route path="/shop/home-living" element={<HomeLiving/>}/>
+        <Route path="/shop/beauty" element={<Beauty/>}/>
+        <Route path="/shop/studio" element={<Studio/>}/>
       </Routes>
     </div>
   )
