@@ -1,2 +1,2 @@
 # likely-cough-9107
-Construct Week Project-Clone of Myntra.com website
+Construct Week Project-Clone of Myntra.com website named as styleZone
